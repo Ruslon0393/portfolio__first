@@ -1,0 +1,496 @@
+.main-banner {
+    background: url('../images/main-banner.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-banner .banner-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-banner .banner-img img {
+    height: 85%;
+    margin-top: 3rem;
+    transform: translate(0px, -20px);
+}
+.main-banner .banner-info{
+    text-transform: uppercase;
+}
+.main-banner .banner-info h4{
+    margin-top: 9rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: slategray;
+}
+.main-banner .banner-info h1{
+    margin-top: 1rem;
+    font-size: 5rem;
+    font-weight: 400;
+    color: rgb(17, 38, 230);
+}
+.main-banner .banner-info h3{
+    margin-top: 0.31rem;
+    font-size: 1.56rem;
+    font-weight: 300;
+    color: thistle;
+}
+.main-banner .banner-info a{
+    margin-top: 12rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    background: rgb(227, 69, 248);
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: background 0.5s;
+}
+.main-banner .banner-info a:hover{
+    background:rgb(86, 86, 248);
+    color: snow;
+}
+
+
+
+
+.statistic{
+    display: flex;
+    margin-top: 3rem;
+}
+.statistic .statistic-box{
+    margin-right: 3rem;
+    padding: 1.25rem 3rem ;
+    border-radius: 2rem;
+    background-color: rgba(199, 190, 190, 0.247);
+    text-align: center;
+}
+.statistic .statistic-number{
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: slateblue;
+}
+.statistic .statistic-word{
+    margin-top: 0.31rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: slategray;
+}
+
+
+
+
+
+
+
+
+
+.about-menu{
+    display: flex;
+    margin-top: 7rem;
+}
+.about-menu img{
+    width: 90%;
+}
+.about-img{
+    width: 50%;
+}
+.about-info{
+    width: 50%;
+    margin-left: 1rem;
+}
+.about-info h4{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: slategray;
+    margin-top: 3rem;
+}
+.about-info h4 span{
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    background-color:  rgb(255, 0, 221);
+    filter: blur(5px);
+    margin-left: 1.25rem;
+    margin-bottom: 0.31rem;
+}
+.about-info h2{
+    font-size: 2.25rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    color: rgb(5, 11, 68);
+
+}
+
+.about-info p{
+    margin-top: 1.25rem;
+    font-size: 0.9rem;
+    line-height: 30px;
+    color: rgb(91, 84, 97);
+}
+.about-info a{
+    margin-top: 7rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    background: rgb(227, 69, 248);
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: background 0.5s;
+}
+.about-info a:hover{
+    background:rgb(86, 86, 248);
+    color: snow;
+}
+
+
+
+
+
+.services-menu{
+    margin-top: 10rem;
+}
+.typeof-services{
+    display: flex;
+    margin-top: 3rem;
+}
+.services-box{
+    padding: 4rem 3rem;
+    background-color: rgb(248, 247, 247);
+    width: 32%;
+    margin: 1%;
+    text-align: center;
+    border-radius: 15px;
+    transition: background 0.5s;
+}
+.services-box h3{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(75, 74, 74);
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.services-box p{
+    margin-top: 1rem;
+    line-height: 25px;
+    font-weight: 200;
+    color: rgb(70, 68, 68);
+}
+.services-box a{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+}
+.services-box:hover {
+    background-color: rgba(82, 15, 207, 0.753);
+}
+.services-box:hover a,
+.services-box:hover p,
+.services-box:hover h3{
+    color: white;
+}
+
+
+
+
+
+
+
+
+.client-menu{
+    margin-top: 7rem;
+}
+.client-info {
+    display: flex;
+    margin-top: 5rem;
+}
+.client-img{
+    width: 50%;
+}
+.client-info__for{
+    width: 50%;
+}
+.client-menu .client-img img{
+    width: 90%;
+}
+.client-menu .client-info__for h2{
+    text-transform: uppercase;
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    color: rgb(48, 47, 47);
+}
+.client-menu .client-info__for h4{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: grey;
+    text-transform: uppercase;
+}
+.client-menu .client-info__for p{
+    margin-top: 1rem;
+    color: grey;
+    line-height: 27px;
+}
+
+
+
+
+
+
+.my-product{
+    margin-top: 7rem;
+}
+.product-carusel{
+    display: flex;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+.product-carusel h3{
+    margin-right: 4rem;
+    color: indigo;
+    cursor: pointer;
+}
+.product-carusel h3:hover{
+    color: fuchsia;
+}
+.product-img {
+    display: flex;
+    margin-top: 3rem;
+}
+.product-img-right img{
+    width: 100%;
+    border-radius: 2rem;
+}
+.product-img-right{
+    width: 48%;
+    margin-right: 2%;
+}
+.product-images {
+    position: relative;
+}
+.product-images:hover .product-img-info{
+    opacity: 1;
+}
+.product-img-info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: opacity 1s;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.479);
+    z-index: 2;
+    display: block;
+    opacity: 0;
+    border-radius: 2rem;
+}
+.product-img-info h4{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.product-img-info a{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.my-blog {
+    margin-top: 7rem;
+}
+.blog-box:hover .blog-img img{
+    transform: scale(1.1);
+}
+.blog-box:hover{
+    box-shadow: 0 0 10px rgb(116, 115, 115);
+}
+.blog-box:hover .blog-info{
+    background-color: white;
+}
+.blog-boxs {
+    display: flex;
+    margin-top: 3rem;
+}
+.blog-boxs .blog-box {
+    border-radius: 30px;
+    width: 33%;
+    margin-right: 1%;
+    transition: box-shadow 0.5s;
+}
+.my-blog .blog-img {
+    overflow: hidden;
+    border-radius: 30px 30px 0 0;
+}
+.my-blog .blog-img img{
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+    transition: transform 0.7s;
+
+}
+.blog-boxs .blog-info{
+    background-color: #f4f7ffe3;
+    padding: 3rem;
+    border-radius: 30px;
+
+}
+.blog-info .blog-admin {
+    color: #797979;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-info h3 {
+    font-size: 1.25rem;
+    margin-top: 0.62rem;
+}
+.blog-info p{
+    font-size: 1rem;
+    margin-top: 0.32rem;
+}
+
+
+
+
+
+
+
+.partners{
+    margin-top: 7rem;
+}
+.partners .part{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.partners ul li{
+    margin-right: 2rem;
+}
+.partners ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 980px){
+    .main-banner .banner-img img {
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 790px){
+    .about-info a{
+        display: none;
+    }
+    .services-box p{
+        margin-top: 1rem;
+        line-height: 17px;
+        font-weight: 200;
+    }
+}
+@media only screen and (max-width: 690px){
+    .about-menu{
+        display: block;
+        text-align: center;
+    }
+    .about-info{
+        width: 80%;
+        margin: auto;
+    }
+    .about-img{
+        width: 80%;
+        margin: auto;
+    }
+    .typeof-services{
+        display: block;
+    }
+    .services-box{
+        width: 80%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .client-info {
+        display: block;
+    }
+    .client-info__for{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .client-img{
+        width: 80%;
+        margin: auto;
+    }
+    .product-carusel{
+        display: none;
+    }
+    .product-img{
+        display: block;
+    }
+    .product-img-right{
+        width: 80%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .product-images{
+        margin-top: 1rem;
+    }
+    .blog-boxs{
+        display: block;
+    }
+    .blog-boxs .blog-box {
+        margin-right: 0;
+        width: 70%;
+        margin: auto;
+        margin-top: 1.25rem;
+    }
+    .partners{
+        display: none;
+        margin: auto;
+
+    }
+
+}
+@media only screen and (max-width: 490px) {
+    html{
+        font-size: 10px;
+    }
+    .statistic{
+        display: block;
+    }
+   .statistic .statistic-box{
+        width: 60%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .main-menu .qwerty{
+        width: 30px;
+        height: 30px;
+    }
+
+}

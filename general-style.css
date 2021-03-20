@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: sans-serif;
+}
+.main-menu .qwerty{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    background-color: rgba(137, 43, 226, 0.514);
+    border-radius: 1rem;
+    text-align: center;
+}
+.main-menu .qwerty span{
+    margin-top: 15px;
+    margin-left: 10px;
+    transform: rotate(45deg);
+    height: 20px;
+    width: 20px;
+    display: block;
+    border-left: solid 5px;
+    border-top: solid 5px;
+    border-color: rgb(255, 255, 255);
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.main-menu{
+    z-index: 10;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(to right, rgb(121, 161, 199)0%, rgb(204, 138, 221)100%);
+    box-shadow: 1px 15px 20px rgba(105, 100, 100, 0.459) ;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu .general-logo img{
+    height: 50px;
+}
+.main-menu .header-navbar{
+    display: flex;
+    justify-content: center;
+    
+}
+.main-menu .header-item {
+    margin-left: 0.31rem;  
+}
+.main-menu .header-item a{
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.31rem 0.62rem;
+    border-radius: 2rem;
+    transition: background 0.5s, color 0.5s;
+}
+.main-menu .header-item a:hover{
+    color: rgb(183, 56, 238);
+    background-color: rgba(255, 255, 255, 0.486);
+}
+.main-menu input{
+    display: none;
+}
+.main-menu label{
+    cursor: pointer;
+}
+.main-menu label span {
+    display: none;
+    width: 25px;
+    background-color: black;
+    height: 3px;
+    margin-top: 4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: grey;
+    text-align: center;
+    margin-top: 7rem;
+}
+footer .logo-footer img{
+    width: 100px;
+}
+footer .logo-footer{
+    padding-top: 2rem;
+}
+footer .footer-navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+footer .footer-navbar ul .footer-navbar-item{
+    margin: 0 1rem;
+}
+footer .footer-navbar ul .footer-navbar-item a{
+    color: black;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+footer .footer-navbar ul .footer-navbar-item a:hover{
+    color: white;
+}
+footer .footer-info {
+    margin-top: 2rem;
+    padding-bottom: 0.21rem;
+}
+footer .footer-info p, span{
+    color: rgb(41, 40, 40);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 880px){
+    html{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 790px){
+    html{
+        font-size: 12px;
+    }
+
+}
+@media only screen and (max-width: 660px){
+    .main-menu nav{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background-color: rgb(79, 79, 189);
+        top: 50px;
+        left: 100%;
+        transition: left 0.5s;
+    }
+    .main-menu label span{
+        display: block;
+    }
+    .main-menu .header-navbar {
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-left: 2rem;
+    }
+    .main-menu .header-navbar .header-item a{
+        font-size: 2rem;
+        transition: 0.5s;
+    }
+    .main-menu .header-navbar .header-item a:hover{
+        margin-left: 8px;
+    }
+    .main-menu .header-navbar .header-item{
+        margin-top: 1.25rem;
+    }
+    #check:checked ~ nav{
+        left: 50%;
+    }
+
+}
+@media only screen and (max-width: 490px) {
+    html{
+        font-size: 10px;
+    }
+    .main-banner .banner-info h1{
+        font-size: 4rem;
+    }
+}
